@@ -5,13 +5,13 @@ The following report is an analysis of current GitHub resources, teams and repos
 
 ## GitHub Teams
 
-These recommendations provide either clean up or consistency in naming and provide an archetype for new Working Groups and Task Forces moving forward.
+These recommendations provide either clean-up or consistency in naming and provide an archetype for new Working Groups and Task Forces moving forward.
 
 ### Recommendation
-Create a GitHub team for each existing Working Group and child team for the WG Task Forces. Initially using the chairs/co/vice chairs for assigning GitHub `Admin` access.
+Create a GitHub team for each existing Working Group and a child team for the WG Task Forces. Initially using the chairs/co/vice chairs for assigning GitHub `Admin` access.
 
 #### Rational
-While not all Working Groups or Task Forces may provide deliverables via GitHub, maintaining a current heirarchy and subsequent Admins of those groups provide a consistant approach to access to GitHub.
+While not all Working Groups or Task Forces may provide deliverables via GitHub, maintaining a current hierarchy and subsequent Admins of those groups provide a consistent approach to accessing GitHub.
 
 #### Proposal
 Create the following Teams hierarchy:
@@ -19,6 +19,7 @@ Create the following Teams hierarchy:
 * Governance Stack Working Group (gswg)
     * Governance Architect Task Force (gswg-ga-tf)
     * Attraction Pass Task Force (gswg-ap-tf)
+    * Issuer Governance Requirements Task Force (gswg-igr-tf) (needs adding to wiki)
 * Technology Stack Working Group (tswg)
     * Trust Registry Task Force (tswg-tr-tf)
     * Authentic Chained Data Containers (tswg-acdc-tf)
@@ -28,7 +29,7 @@ Create the following Teams hierarchy:
     * Credential Exchange Protocols Task Force (tswg-cep-tf)
     * DID WebS Task Force (tswg-dw-tf) - PENDING VOTE
 * Utility Foundry Working Group (ufwg)
-* Ecosystem Foundary Working Group (efwg)
+* Ecosystem Foundry Working Group (efwg)
     * Internet of Research Ecosystem Task Force (efwg-ire-tf)
     * Human Trafficking Safety Response Ecosystem (efwg-htsre-tf)
     * YOMA Ecosystem Task Force (efwg-yomae-tf)
@@ -39,13 +40,13 @@ Create the following Teams hierarchy:
 * Concepts & Terminology Working Group (ctwg)
 * Human Experience Working Group (hewg)
 * Data Modelling and Representation Working Group (dmrwg)
-* Owners (owners) - A fall back for any orphaned repos to ensure continuity of access.
+* Owners (owners) - A fallback for any orphaned repos to ensure continuity of access.
 
 
-A more formal and known GitHub access stratgey may make it easier for groups to contribute their work to ToIP.
+A more formal and known GitHub access strategy may make it easier for groups to contribute their work to ToIP.
 
 ### Existing Team clean up
-Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
+Currently, GitHub naming is sporadic and access unaligned with current WG/TFs.
 
 #### Team - "CTWG-Dev"
 7 members
@@ -129,7 +130,7 @@ Respoitories not active, or not under governance of an exist WG/TF.
 
 #### Rational
 
-Keeping a clean and up to date set of repositories will make maintance moving forward managable.
+Keeping a clean and up-to-date set of repositories will make maintenance moving forward manageable.
 
 ##### Recommendations
 * trustoverip/qr-code-spec
@@ -162,5 +163,5 @@ Keeping a clean and up to date set of repositories will make maintance moving fo
 * trustoverip/ecosystem-foundry-wg
 
 ###### Nota bene
-Reviewing the activity on these repos, we should decide on archvie vs delete.
-There is a lot of bolierplate in here.
+Reviewing the activity on these repositories, we should decide on archive vs delete.
+There is a lot of boilerplate in here.
