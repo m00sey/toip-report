@@ -42,10 +42,13 @@ Create the following Teams hierarchy:
 
 A more formal and known GitHub access stratgey may make it easier for groups to contribute their work to ToIP.
 
-### Team - "CTWG-Dev"
+### Existing Team clean up
+Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
+
+#### Team - "CTWG-Dev"
 7 members
 
-#### Recommendation
+##### Recommendation
 * Create `ctwg` team for naming consistency
 * Copy members from `CTWG-Dev`
 * Apply new team to repos
@@ -58,28 +61,26 @@ A more formal and known GitHub access stratgey may make it easier for groups to 
     * trustoverip/tt (see repo recommendations)
 * Remove `CTWG-Dev` team
 
-### Existing Team clean up
-Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
 
-#### Team - "Deliverables Recommendations" 
+##### Team - "Deliverables Recommendations" 
 3 members
 
-##### Recommendation
+###### Recommendation
 * Remove
 
-##### Repercussion
+###### Repercussion
 * trustoverip/deliverables needs new owners
 
-#### Team - "GitHib Organization Task Force"
+##### Team - "GitHib Organization Task Force"
 2 members
 
-##### Recommendation
+###### Recommendation
 * Remove
 
-##### Repercussion
+###### Repercussion
 * trustoverip/logo-assets needs new owners
 
-#### Team - "HXWG - Maint" (3 members)
+##### Team - "HXWG - Maint" (3 members)
 * Create `hxwg` team for naming consistency
 * Copy members from `HXWG - Maint`
 * Apply new team to repos
@@ -92,13 +93,13 @@ Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
     * trustoverip/tt (see repo recommendations)
 * Remove `HXWG - Maint` team
 
-#### Team - "members"
+##### Team - "members"
 2 members
 
-##### Recommendation
+###### Recommendation
 * Remove
 
-##### Repercussion
+###### Repercussion
  * Add team `tswg-tsp-tf` as owner of `trustoverip/trust-spanning-protocol`
 
 ## Repositories
