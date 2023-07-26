@@ -112,7 +112,6 @@ Consistent naming will ease access, maintenance and discoverability.
 ##### Recommendations
  * trustoverip/essiflab -> trustoverip/ctwg-essiflab 
  * trustoverip/yoma -> trustoverip/ctwg-yoma 
- * trustoverip/toip  -> trustoverip/ctwg-toip 
  * trustoverip/tt -> trustoverip/ctwg-term-toolset
  * trustoverip/acdc -> trustoverip/terms-acdc
  * trustoverip/credential-exchange-protocols -> trustoverip/twsg-credential-exchange-protocols-tf
