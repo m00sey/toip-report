@@ -39,6 +39,8 @@ Create the following Teams hierarchy:
 * Concepts & Terminology Working Group (ctwg)
 * Human Experience Working Group (hewg)
 * Data Modelling and Representation Working Group (dmrwg)
+* Owners (owners) - A fall back for any orphaned repos to ensure continuity of access.
+
 
 A more formal and known GitHub access stratgey may make it easier for groups to contribute their work to ToIP.
 
