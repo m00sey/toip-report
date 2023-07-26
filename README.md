@@ -2,6 +2,22 @@
 
 The following report is an analysis of current GitHub resources, teams and repositories within the Trust Over IP GitHub organization and recommendations to create, normalize and remove resources.
 
+## Membership
+
+"Trust Over IP Members" (people that have gone through the Steering/General/Contributor sign-up) should be added to the GitHub Organization as "Members".
+
+### Rational
+It is nice to be a part of something!
+Access to repositories should be managed through WG/TF groups in the structure provided below. 
+We should not have any "floating" individuals associated we ownership of repositories.
+To use the Team structure below, ToIP members need to be a part of the GitHub organization.
+
+### Whois
+
+@ToIPOperations is this an account we have access to/control over?
+
+#### Concern
+It is an Admin on everything.
 
 ## GitHub Teams
 
@@ -100,7 +116,7 @@ Currently, GitHub naming is sporadic and access unaligned with current WG/TFs.
 * Remove
 
 ##### Repercussion
- * Add team `tswg-tsp-tf` as owner of `trustoverip/trust-spanning-protocol`
+ * Add team `tswg-tsp-tf` as the owner of `trustoverip`/trust-spanning-protocol`
 
 ## GitHub Repositories
 
@@ -110,7 +126,7 @@ As noted in the [GitHub Blog](https://github.blog/2013-05-16-repository-redirect
 #### Rational
 Consistent naming will ease access, maintenance and discoverability.
 
-##### Recommendations
+##### Recommendation
  * trustoverip/essiflab -> trustoverip/ctwg-essiflab 
  * trustoverip/yoma -> trustoverip/ctwg-yoma 
  * trustoverip/tt -> trustoverip/ctwg-term-toolset
@@ -125,14 +141,13 @@ Consistent naming will ease access, maintenance and discoverability.
  * trustoverip/gswg -> trustoverip/terms-gswg
 
 ### Archive
-
-Respoitories not active, or not under governance of an exist WG/TF.
+Repositories not active, or not under governance of an exist WG/TF.
 
 #### Rational
 
 Keeping a clean and up-to-date set of repositories will make maintenance moving forward manageable.
 
-##### Recommendations
+##### Recommendation
 * trustoverip/qr-code-spec
 * trustoverip/TSS0033-technology-stack-acdc
 * trustoverip/TRTF-trust-decision
@@ -165,3 +180,36 @@ Keeping a clean and up-to-date set of repositories will make maintenance moving 
 ###### Nota bene
 Reviewing the activity on these repositories, we should decide on archive vs delete.
 There is a lot of boilerplate in here.
+
+
+## 2FA
+
+Configuring 2FA is described [here](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+
+##### Recommendation
+
+Members of the ToIP with the "Owner" role must have 2FA enabled.
+2FA should be a prerequisite to adding any member to a team or role with administrative permissions.
+
+## New Team/Repository Archetype
+An example of team/repository configuration.
+
+### Scenario
+
+The TSWG wants to add a new Task Force "did:webs". The Task Force is responsible for creating a community specification describing a new, better, more secure DID method.
+
+##### Recommendation
+
+A new child team of `tswg` is created using the prefix of the parent, the `tf` suffix and a shortened name (first character of each word) `tswg-dw-tf`.
+
+The elected chairs/editors of the Task Force are added to the Team in GitHub.
+
+A new repository for the specification is created with the Working Group prefix `tswg-did-webs-specification`.
+
+The `tswg-dw-tf` is added as a collaborator on the repository with the "Maintainer" role.
+
+Any contributions from outside the members of the `tswg-dw-tf` GitHub Team, meaning any collaborator or member of the task force meetings, should be made through a fork/pull request workflow.
+
+##### Rational
+
+This limits the number of people with "administrative" roles within the organization while being inclusive of any contributing member.
