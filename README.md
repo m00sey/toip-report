@@ -89,13 +89,7 @@ Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
 * Create `hxwg` team for naming consistency
 * Copy members from `HXWG - Maint`
 * Apply new team to repos
-    * trustoverip/ctwg
-    * trustoverip/ctwg-sandbox
-    * trustoverip/ctwg-tev2
-    * trustoverip/ctwg-toolkit-mrg
-    * trustoverip/essiflab (see repo recommendations)
-    * trustoverip/toip (see repo recommendations)
-    * trustoverip/tt (see repo recommendations)
+    * trustoverip/hxwg
 * Remove `HXWG - Maint` team
 
 #### Team - "members"
