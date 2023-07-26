@@ -64,25 +64,28 @@ Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
 * Remove `CTWG-Dev` team
 
 
-##### Team - "Deliverables Recommendations" 
+#### Team - "Deliverables Recommendations" 
 3 members
 
-###### Recommendation
+##### Recommendation
 * Remove
 
-###### Repercussion
+##### Repercussion
 * trustoverip/deliverables needs new owners
 
-##### Team - "GitHib Organization Task Force"
+#### Team - "GitHib Organization Task Force"
 2 members
 
-###### Recommendation
+##### Recommendation
 * Remove
 
-###### Repercussion
+##### Repercussion
 * trustoverip/logo-assets needs new owners
 
-##### Team - "HXWG - Maint" (3 members)
+#### Team - "HXWG - Maint"
+3 members
+
+##### Recommendation
 * Create `hxwg` team for naming consistency
 * Copy members from `HXWG - Maint`
 * Apply new team to repos
@@ -95,7 +98,7 @@ Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
     * trustoverip/tt (see repo recommendations)
 * Remove `HXWG - Maint` team
 
-##### Team - "members"
+#### Team - "members"
 2 members
 
 ###### Recommendation
