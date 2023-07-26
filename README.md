@@ -101,7 +101,7 @@ Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
 ##### Repercussion
  * Add team `tswg-tsp-tf` as owner of `trustoverip/trust-spanning-protocol`
 
-## Repositories
+## GitHub Repositories
 
 ### Renaming
 As noted in the [GitHub Blog](https://github.blog/2013-05-16-repository-redirects-are-here/) renaming and keeping existing references unbroken is trivial.
