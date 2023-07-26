@@ -95,10 +95,10 @@ Currently GitHub naming is sporadic and access unaligned with current WG/TFs.
 #### Team - "members"
 2 members
 
-###### Recommendation
+##### Recommendation
 * Remove
 
-###### Repercussion
+##### Repercussion
  * Add team `tswg-tsp-tf` as owner of `trustoverip/trust-spanning-protocol`
 
 ## Repositories
