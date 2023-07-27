@@ -24,10 +24,10 @@ It is an Admin on everything.
 These recommendations provide either clean-up or consistency in naming and provide an archetype for new Working Groups and Task Forces moving forward.
 
 ### Recommendation
-Create a GitHub team for each existing Working Group and a child team for the WG Task Forces. Initially using the chairs/co/vice chairs for assigning GitHub `Admin` access.
+Create a GitHub team for each existing Working Group and a child team for the WG Task Forces. Initially using the chairs/co/vice chairs for assigning GitHub `Write` access.
 
 #### Rational
-While not all Working Groups or Task Forces may provide deliverables via GitHub, maintaining a current hierarchy and subsequent Admins of those groups provide a consistent approach to accessing GitHub.
+While not all Working Groups or Task Forces may provide deliverables via GitHub, maintaining a current hierarchy and subsequent Chairs of those groups provide a consistent approach to accessing GitHub.
 
 #### Proposal
 Create the following Teams hierarchy:
@@ -206,7 +206,7 @@ The elected chairs/editors of the Task Force are added to the Team in GitHub.
 
 A new repository for the specification is created with the Working Group prefix `tswg-did-webs-specification`.
 
-The `tswg-dw-tf` is added as a collaborator on the repository with the "Maintainer" role.
+The `tswg-dw-tf` is added as a collaborator on the repository with the "Write" role.
 
 Any contributions from outside the members of the `tswg-dw-tf` GitHub Team, meaning any collaborator or member of the task force meetings, should be made through a fork/pull request workflow.
 
